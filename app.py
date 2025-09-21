@@ -7,7 +7,7 @@ st.set_page_config(page_title="Forex Simulation", layout="centered")
 
 # ----------------- Core Functions -----------------
 def forex_simulation(budget_inr, inr_to_foreign_direct, inr_to_usd, usd_to_foreign):
-    """Compare INR→Foreign vs INR→USD→Foreign and compute break-even."""
+    """Compare INR→Foreign vs INR→USD→Foreign and compute break-even. (@spreading.smiles06)"""
     # Option 1: Direct INR → Foreign
     foreign_direct = budget_inr / inr_to_foreign_direct
 
