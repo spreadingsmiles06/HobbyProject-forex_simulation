@@ -89,4 +89,5 @@ if st.button("Run Simulation"):
     plot_forex_graph(budget, inr_to_foreign_direct, inr_to_usd, usd_to_foreign_range)
 
 st.markdown("---")
-st.caption("Built with ❤️ in Streamlit")
+st.caption("Built with ❤️ in Streamlit by st.markdown("<span style='color:cyan'>(@spreading.smiles06)</span>", unsafe_allow_html=True)
+")
