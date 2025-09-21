@@ -60,10 +60,9 @@ def plot_forex_graph(budget_inr, inr_to_foreign_direct, inr_to_usd, usd_to_forei
 
 # ----------------- Streamlit UI -----------------
 st.title("💱 Forex Simulation Tool")
-
-st.markdown("Compare **Direct INR→Foreign** vs **INR→USD→Foreign abroad** and find break-even points. (@spreading.smiles06)")
 st.markdown("<span style='color:cyan'>(@spreading.smiles06)</span>", unsafe_allow_html=True)
 
+st.markdown("Compare **Direct INR→Foreign** vs **INR→USD→Foreign abroad** and find break-even points. (@spreading.smiles06)")
 
 # Inputs
 budget = st.number_input("Budget in INR", min_value=1000, value=100000, step=1000)
