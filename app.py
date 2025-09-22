@@ -69,6 +69,7 @@ with st.expander("See Example: Russia"):
     Suppose you are traveling to Russia:
     - Direct: 1 INR = 1.41 RUB
     - Via USD: 1 INR = 0.012 USD, and 1 USD = 63 RUB
+    - Define range of USD→Foreign = 60 to 85 RUB
     
     Calculation shows carrying USD may give you better value than direct INR → RUB.
     
