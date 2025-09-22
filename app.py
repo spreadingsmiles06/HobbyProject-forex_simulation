@@ -62,7 +62,18 @@ def plot_forex_graph(budget_inr, inr_to_foreign_direct, inr_to_usd, usd_to_forei
 st.title("💱 Forex Simulation Tool")
 st.markdown("<span style='color:cyan'>(@spreading.smiles06)</span>", unsafe_allow_html=True)
 
-st.markdown("Compare **Direct INR→Foreign** vs **INR→USD→Foreign abroad** and find break-even points. (@spreading.smiles06)")
+st.markdown("Compare **Direct INR→Foreign** vs **INR→USD→Foreign abroad** and find break-even points.")
+st.write("Compare whether converting INR directly or carrying USD gives better value.")
+with st.expander("See Example: Russia"):
+    st.write("""
+    Suppose you are traveling to Russia:
+    - Direct: 1 INR = 1.25 RUB
+    - Via USD: 1 INR = 0.012 USD, and 1 USD = 63 RUB
+    
+    Calculation shows carrying USD may give you better value than direct INR → RUB.
+    
+    ✅ Always check both options before deciding.
+    """)
 
 # Inputs
 budget = st.number_input("Budget in INR", min_value=1000, value=100000, step=1000)
