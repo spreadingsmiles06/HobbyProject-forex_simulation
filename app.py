@@ -63,8 +63,8 @@ st.title("💱 Forex Simulation Tool")
 st.markdown("<span style='color:cyan'>(@spreading.smiles06)</span>", unsafe_allow_html=True)
 
 st.markdown("Compare **Direct INR→Foreign** vs **INR→USD→Foreign abroad** and find break-even points.")
-st.write(" --> Compare whether converting INR directly or carrying USD gives better value.")
-with st.expander("See Example: Russia"):
+st.write(" 💡Compare whether converting INR directly or carrying USD gives better value.")
+with st.expander("📍See Example: Russia"):
     st.write("""
     Suppose you are traveling to Russia:
     - Direct: 1 INR = 1.41 RUB
